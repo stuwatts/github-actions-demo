@@ -6,5 +6,5 @@ test("add two numbers", () => {
 });
 
 test("multiply two numbers", () => {
-  expect(multiply(6, 7).toBe(42));
+  expect(multiply(6, 7)).toBe(42);
 });
